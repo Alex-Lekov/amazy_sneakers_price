@@ -36,10 +36,10 @@ logger.add(
 
 ####### LOAD CONFIG ##################################
 with open("config_prod.yml", 'r') as ymlfile:
-    config = yaml.load(ymlfile)
+    config = yaml.load(ymlfile, Loader=yaml.SafeLoader)
 
 MODEL_DIR = config['MODEL_DIR']
-VERSION = config['MODEL_DIR']
+VERSION = config['VERSION']
 
 ####################################### data_quality setup #################################
 

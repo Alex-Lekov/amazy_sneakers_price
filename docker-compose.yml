@@ -1,6 +1,6 @@
 version: '3'
 services:
-  sneakers_price_v2.2:
+  sneakers_price_v2.3:
     build: .
     #container_name : Estimating the price of amazy sneakers
     restart : always

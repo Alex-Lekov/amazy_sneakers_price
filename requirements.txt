@@ -8,3 +8,4 @@ uvicorn
 catboost
 shap
 aiofiles
+pyyaml
