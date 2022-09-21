@@ -10,7 +10,7 @@
 <div align="center">
 
   [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-  [![Python](https://img.shields.io/badge/python-v3.7-blue.svg)]()
+  [![Python](https://img.shields.io/badge/python-v3.10-blue.svg)]()
 
 </div>
 
@@ -29,13 +29,14 @@ Project is created with:
 * docker: 20.10.16
 * docker-compose: 1.29.2
 
-## Installation
-1. setup config_prod.yml 
+## Installation with Docker Compose :whale:
+1. setup [config_prod.yml](./app/config_prod.yml)
 2. run
 ```bash
 > docker-compose build
 > docker-compose up
 ```
+3. Open [http://0.0.0.0:8003](http://0.0.0.0:8003) FastAPI Swagger UI
 
 # CHANGELOG
 [CHANGELOG](./CHANGELOG.md)
