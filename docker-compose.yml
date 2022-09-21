@@ -1,0 +1,12 @@
+version: '3'
+services:
+  sneakers_price_v2.2:
+    build: .
+    #container_name : Estimating the price of amazy sneakers
+    restart : always
+    volumes:
+    - ./app:/app
+    working_dir: /app/
+    ports:
+      - "8003:8003"
+    command: python -u ./main.py

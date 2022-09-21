@@ -1,0 +1,10 @@
+loguru
+numpy
+pandas
+tqdm
+fastapi
+pydantic
+uvicorn
+catboost
+shap
+aiofiles
