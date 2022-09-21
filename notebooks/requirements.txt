@@ -1,263 +1,69 @@
-absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1633452298659/work
-aiodns @ file:///root/.cache/pypoetry/artifacts/c9/1d/8b/96abfe643adf87d91b162852d7f185d0bd7f8a174156e65e2863fcc2de/aiodns-3.0.0-py3-none-any.whl
-aiogram @ file:///root/.cache/pypoetry/artifacts/4c/2e/85/49c66eb87df9a36cf7cd6eb50fa1916bdfee9b8ec36dbb603b0f4bf03c/aiogram-2.14.3-py3-none-any.whl
-aiohttp @ file:///home/conda/feedstock_root/build_artifacts/aiohttp_1623682234273/work
-alembic==1.7.3
-appdirs==1.4.4
-argon2-cffi==21.1.0
-astroid==2.4.1
-async-timeout @ file:///root/.cache/pypoetry/artifacts/e1/e7/dc/347dacf16e20e4b15a992103281583f3a03db422172dec1c5f08d68c07/async_timeout-3.0.1-py3-none-any.whl
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1620387926260/work
-automl-alex==1.6.10
-autopage==0.4.0
-Babel @ file:///root/.cache/pypoetry/artifacts/1e/28/b6/110e8fc8ccc0dafe21bbc521139d0d0674574f7daa6f6f90137bdb4759/Babel-2.9.1-py2.py3-none-any.whl
+aiofiles==22.1.0
+anyio==3.6.1
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-backports.entry-points-selectable==1.1.0
-bandit==1.7.0
-black==21.7b0
-bleach==4.1.0
-blinker==1.4
-bottle==0.12.19
-brotlipy==0.7.0
-CacheControl==0.12.6
-cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1633010882559/work
-cachy==0.3.0
-catboost==1.0.0
-category-encoders==2.2.2
-ccxt @ file:///root/.cache/pypoetry/artifacts/80/82/4b/ab210eddc4c4f3f156e4324833fe94e15f4a4d35323931a959c9ed649a/ccxt-1.55.28-py2.py3-none-any.whl
-certifi==2021.5.30
-cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1625835307225/work
-chardet @ file:///home/conda/feedstock_root/build_artifacts/chardet_1610093492116/work
-charset-normalizer==2.0.4
-cleo==0.8.1
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1621503702258/work
-cliff==3.9.0
-clikit==0.6.2
-cloudpickle==2.0.0
-cmaes==0.8.2
-cmd2==2.2.0
-cmdstanpy==0.9.5
-colorama==0.4.4
-colorlog==6.4.1
-convertdate==2.3.2
-crashtest==0.3.1
-cryptocmd==0.6.0
-cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography_1616851485986/work
-cvxopt==1.2.5
-cvxpy @ file:///root/.cache/pypoetry/artifacts/f1/65/e8/5e2a1586a13a308e840203d96e680ebca456da5449bfb9c70825add734/cvxpy-1.1.15-cp39-cp39-manylinux_2_24_x86_64.whl
-cycler @ file:///root/.cache/pypoetry/artifacts/af/e8/be/e7e2a18c4317324d4e3beeec6f4366506194f59bad1c2fbe91a54445eb/cycler-0.10.0-py2.py3-none-any.whl
-Cython==0.29.24
-dataclasses @ file:///home/conda/feedstock_root/build_artifacts/dataclasses_1628958434797/work
-dateparser @ file:///root/.cache/pypoetry/artifacts/53/2d/3b/a3f1aa76a3b1b7f9cfb849ca73bdd3d137482072e7cd8c4fab0b68ebbf/dateparser-1.0.0-py2.py3-none-any.whl
-decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
-defusedxml==0.7.1
-dill==0.3.4
-distlib==0.3.2
-dodgy==0.2.1
-ecos @ file:///root/.cache/pypoetry/artifacts/a6/81/d3/230c37631aa382497cd8aab50903a2c87b6e58e9753878870e074ac853/ecos-2.0.7.post1.tar.gz
-emoji @ file:///root/.cache/pypoetry/artifacts/3c/f6/d9/869ef9481cff26abcebef031f08a52d68a5eddd2b556652be342865b19/emoji-1.4.2.tar.gz
-entrypoints==0.3
-ephem==4.1
-et-xmlfile==1.1.0
-filelock==3.0.12
-flake8==3.8.4
-flake8-polyfill==1.0.2
-gitdb==4.0.7
-GitPython==3.1.18
-google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1629296548061/work
-google-auth-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/google-auth-oauthlib_1630497468950/work
-graphviz==0.17
-greenlet==1.1.1
-grpcio @ file:///home/conda/feedstock_root/build_artifacts/grpcio_1624380496936/work
-gym==0.21.0
-hijri-converter==2.2.2
-holidays==0.11.3.1
-html5lib==1.1
-httpstan==4.5.0
-idna==3.2
-imageio==2.9.0
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1630267473458/work
-influxdb @ file:///root/.cache/pypoetry/artifacts/ef/8a/56/6243e6925c409b3357fa4999260727e216124522f99aab6212a696712c/influxdb-5.3.1-py2.py3-none-any.whl
-iniconfig==1.1.1
-ipykernel @ file:///tmp/build/80754af9/ipykernel_1607452791405/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///tmp/build/80754af9/ipython_1628243919194/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-ipywidgets==7.6.5
-isort==4.3.21
-jedi @ file:///tmp/build/80754af9/jedi_1611333729159/work
-jeepney==0.7.1
-Jinja2==3.0.1
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1633637554808/work
-jsonschema==3.2.0
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
-jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1612213314396/work
-jupyterlab-pygments==0.1.2
-jupyterlab-widgets==1.0.2
-kaleido==0.2.1
-keyring==21.8.0
-kiwisolver @ file:///root/.cache/pypoetry/artifacts/b0/3e/dd/9e102bc187a735e9c55414e8529e4eca4ccf7c94868e9eaf4e30612e20/kiwisolver-1.3.1-cp39-cp39-manylinux1_x86_64.whl
-korean-lunar-calendar==0.2.1
-lazy-object-proxy==1.4.3
-lightgbm @ file:///home/conda/feedstock_root/build_artifacts/lightgbm_1618922568071/work
-llvmlite==0.37.0
-lockfile==0.12.2
-loguru @ file:///root/.cache/pypoetry/artifacts/86/46/fb/57abc2a88da92cb957a6f2c96bd3e58662eede7ebc1adce938a5ea46c4/loguru-0.5.3-py3-none-any.whl
-LunarCalendar==0.0.9
-lxml==4.6.3
-lz4==3.1.3
-Mako==1.1.5
-Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1614595805172/work
-MarkupSafe==2.0.1
-marshmallow==3.13.0
-matplotlib @ file:///root/.cache/pypoetry/artifacts/42/c8/f9/0416c3a2241578553015ab753018675d7991d6546955f9236fe4af14ba/matplotlib-3.4.3-cp39-cp39-manylinux1_x86_64.whl
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
-mccabe==0.6.1
-mistune==0.8.4
-more-itertools @ file:///root/.cache/pypoetry/artifacts/47/d4/7d/526affa62eb0c76eec19004cbbf18cc4e55f51c665e92b88bb2ed25752/more_itertools-8.8.0-py3-none-any.whl
-msgpack @ file:///root/.cache/pypoetry/artifacts/e0/e8/76/1a2017ea1894ce9b6bfd45a7633edeffefd940ba829eebf024a1b7a5ac/msgpack-1.0.2-cp39-cp39-manylinux1_x86_64.whl
-msgpack-python==0.5.6
-multidict @ file:///tmp/build/80754af9/multidict_1607367781142/work
-multitasking==0.0.9
-mypy-extensions==0.4.3
-nbclient==0.5.4
-nbconvert==6.1.0
-nbformat==5.1.3
-nest-asyncio==1.5.1
-noisyopt @ file:///root/.cache/pypoetry/artifacts/49/d4/71/74b57b012075e39e60bda5be70ec9b089c39a39baca5358f378d202ec1/noisyopt-0.2.2-py2.py3-none-any.whl
-notebook==6.4.4
-numba==0.54.0
-numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1622014603188/work
-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/oauthlib_1622563202229/work
-odfpy==1.4.1
-openpyxl==3.0.10
-optuna==2.10.0
-optuna-dashboard==0.4.2
-osqp @ file:///root/.cache/pypoetry/artifacts/97/7c/da/a21c2db5d33f54023173d5b302ff8da7b396875db307ce19c95ad893d4/osqp-0.6.2.post0-cp39-cp39-manylinux2014_x86_64.whl
-packaging==21.3
-pandas @ file:///root/.cache/pypoetry/artifacts/18/e9/92/0f5c3903d916c7b3767b34e7f084a5d68c55c693b3c4f3c409c4236803/pandas-1.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-pandas-datareader==0.10.0
-pandas-ta==0.3.14b0
-pandocfilters==1.5.0
-parso @ file:///tmp/build/80754af9/parso_1617223946239/work
-pastel==0.2.1
-pathspec==0.9.0
-patsy==0.5.1
-pbr==5.6.0
-pep8-naming==0.10.0
+catboost==1.0.6
+certifi @ file:///opt/conda/conda-bld/certifi_1663615672595/work/certifi
+click==8.1.3
+cloudpickle==2.2.0
+contourpy==1.0.5
+cycler==0.11.0
+debugpy @ file:///home/builder/ci_310/debugpy_1640789504635/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+entrypoints @ file:///tmp/build/80754af9/entrypoints_1649908313000/work
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fastapi==0.85.0
+fonttools==4.37.3
+graphviz==0.20.1
+h11==0.13.0
+idna==3.4
+ipykernel @ file:///opt/conda/conda-bld/ipykernel_1662361798230/work
+ipython @ file:///opt/conda/conda-bld/ipython_1657652213665/work
+jedi @ file:///tmp/build/80754af9/jedi_1644315229345/work
+joblib==1.2.0
+jupyter-core @ file:///opt/conda/conda-bld/jupyter_core_1651671229925/work
+jupyter_client @ file:///opt/conda/conda-bld/jupyter_client_1662504365333/work
+kiwisolver==1.4.4
+llvmlite==0.39.1
+loguru==0.6.0
+matplotlib==3.6.0
+matplotlib-inline @ file:///opt/conda/conda-bld/matplotlib-inline_1662014470464/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1649830051683/work
+numba==0.56.2
+numpy==1.23.3
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.5.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==8.3.2
-pkginfo==1.7.1
-platformdirs==2.2.0
-plotly==4.14.3
-pluggy==0.13.1
-poetry==1.1.8
-poetry-core==1.0.4
-portfolio-cp==0.1.0
-prettytable==2.2.0
-prometheus-client==0.11.0
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
-prospector==1.3.1
-protobuf==3.15.8
-psutil @ file:///root/.cache/pypoetry/artifacts/06/3a/4a/5e88d8f14e18b10c222f81667132086849930f068d68d064ceb8a87834/psutil-5.8.0-cp39-cp39-manylinux2010_x86_64.whl
-psycopg2-binary==2.9.3
+Pillow==9.2.0
+plotly==5.10.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-py==1.10.0
-pyasn1==0.4.8
-pyasn1-modules==0.2.7
-pycares @ file:///root/.cache/pypoetry/artifacts/3e/87/8e/e8f2cf03635e1c989273cf778ad4321056c8eae7170715b27242799877/pycares-4.0.0-cp39-cp39-manylinux2010_x86_64.whl
-pycodestyle==2.6.0
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-pydantic==1.9.0
-pydocstyle==6.1.1
-pyflakes==2.2.0
-Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
-PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1619620644068/work
-pylama==7.7.1
-pylev==1.4.0
-pylint==2.5.3
-pylint-celery==0.3
-pylint-django==2.1.0
-pylint-flask==0.6
-pylint-plugin-utils==0.6
-PyMeeus==0.5.11
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1633192417276/work
-pyparsing==2.4.7
-pyperclip==1.8.2
-pyportfolioopt @ file:///root/.cache/pypoetry/artifacts/9d/e2/d0/9b9548b072f2cc2a98d656165eaea95451519b27882d9ed5249a833ff0/PyPortfolioOpt-1.4.2-py3-none-any.whl
-pyrsistent==0.18.0
-pysimdjson==3.2.0
-PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1610291451001/work
-pystan==3.2.0
-pytest @ file:///root/.cache/pypoetry/artifacts/e4/88/dd/3dbff42e3c4462dc3d027f5024025571166cb35edee215ce93852a968c/pytest-5.4.3-py3-none-any.whl
-python-binance @ file:///root/.cache/pypoetry/artifacts/70/6a/3e/0e53b9f9cb7fba7db1cd59f8d97aaffecee89b24dc558ba3ae6c76f448/python_binance-1.0.12-py2.py3-none-any.whl
-python-dateutil @ file:///root/.cache/pypoetry/artifacts/53/f8/2a/7d63ce15df7386e9536e83413453f8aa845b47fb425f05c4ca2fb231c3/python_dateutil-2.8.2-py2.py3-none-any.whl
-pytz @ file:///root/.cache/pypoetry/artifacts/b0/a7/8d/54de3ab4d1ff29abbbca1e9ccbaefdc2a1b290138311b84f73bee16de1/pytz-2021.1-py2.py3-none-any.whl
-pyu2f @ file:///home/conda/feedstock_root/build_artifacts/pyu2f_1604248910016/work
-PyYAML==5.4.1
-pyzmq @ file:///tmp/build/80754af9/pyzmq_1628275385016/work
-qdldl @ file:///root/.cache/pypoetry/artifacts/da/12/79/6282c181233b9dcc5ce7863710fcc5d9117abba4e2034ac7669ca41fd5/qdldl-0.1.5.post0-cp39-cp39-manylinux2014_x86_64.whl
-QuantStats==0.0.34
-regex @ file:///root/.cache/pypoetry/artifacts/be/e7/91/da4f778e12b187079bd2e79a9d23767f5cc8574e0d423c6d8fddb5fe29/regex-2021.8.21-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1626393743643/work
-requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-oauthlib_1595492159598/work
-requests-toolbelt==0.9.1
-requirements-detector==0.7
-retrying==1.3.3
-rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1614171254180/work
-schedule==1.1.0
-scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1619628589477/work
-scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1619561912123/work
-scs @ file:///root/.cache/pypoetry/artifacts/86/87/7d/908faa190abfbfb1c75cdbc5321c581d4b36ad5db066d1407eeb4551bd/scs-2.1.4.tar.gz
-seaborn==0.11.2
-SecretStorage==3.3.1
-Send2Trash==1.8.0
-setoptconf==0.2.0
-setuptools-git==1.2
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pydantic==1.10.2
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pyparsing @ file:///opt/conda/conda-bld/pyparsing_1661452539315/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2022.2.1
+PyYAML==6.0
+pyzmq @ file:///opt/conda/conda-bld/pyzmq_1657724186960/work
+scikit-learn==1.1.2
+scipy==1.9.1
+seaborn==0.12.0
 shap==0.41.0
-shellingham==1.4.0
-six @ file:///root/.cache/pypoetry/artifacts/08/9f/47/c16ae03035fc69eaf100ea39657a49baaeef714e25a52575710c34cd48/six-1.16.0-py2.py3-none-any.whl
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sklearn==0.0
 slicer==0.0.7
-smmap==4.0.0
-snowballstemmer==2.1.0
-SQLAlchemy==1.4.23
-sqlitedict @ file:///root/.cache/pypoetry/artifacts/30/da/52/503d8c476c0ad677cb6bcf1714381aa53b2500752bacc499aa0a5f4283/sqlitedict-1.7.0.tar.gz
-stable-baselines3==1.2.0
-statsmodels==0.12.2
-stevedore==3.4.0
-ta-py==1.1.8
-tablib==3.0.0
-tabulate==0.8.9
-tenacity @ file:///root/.cache/pypoetry/artifacts/ce/c3/43/184da8d210db196ba932448acc0a96131bfb58abc4a6bf509cc57dd98a/tenacity-8.0.1-py3-none-any.whl
-tensorboard @ file:///home/conda/feedstock_root/build_artifacts/tensorboard_1629677129676/work/tensorboard-2.6.0-py3-none-any.whl
-tensorboard-data-server @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-data-server_1622834972091/work/tensorboard_data_server-0.6.0-py3-none-manylinux2010_x86_64.whl
-tensorboard-plugin-wit @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-plugin-wit_1611075653546/work/tensorboard_plugin_wit-1.8.0-py3-none-any.whl
-terminado==0.12.1
-testpath==0.5.0
-threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1633102299089/work
-toml==0.10.2
-tomli==1.2.1
-tomlkit==0.7.2
-torch==1.9.1
-tornado @ file:///tmp/build/80754af9/tornado_1606942317143/work
-tqdm @ file:///root/.cache/pypoetry/artifacts/03/35/07/d1ed24da215e52104487a4ec4330309aac359190cfef02874f5001b55a/tqdm-4.62.1-py2.py3-none-any.whl
-traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
-typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1632313171031/work
-tzlocal @ file:///root/.cache/pypoetry/artifacts/0a/a3/4c/19d188d9bc49635b71d4b814009ef78a56668e921fedfbfe749d6a0a31/tzlocal-3.0-py3-none-any.whl
-ujson @ file:///root/.cache/pypoetry/artifacts/a6/bc/39/7f471dcc7ba0ba81dcdb9379e042ac92adbbc72cb41be04ec43de2d8c9/ujson-4.1.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
-universal-portfolios==0.4.6
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1632350318291/work
-vectorbt==0.21.0
-virtualenv==20.7.2
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
-webargs==7.0.1
-webencodings==0.5.1
-websockets @ file:///root/.cache/pypoetry/artifacts/5e/b1/2b/3aece0c932345491f0160dd11511fcd2d9f9284d4aecc4df1f31ab6b78/websockets-9.1-cp39-cp39-manylinux2010_x86_64.whl
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1621518206714/work
-widgetsnbextension==3.5.1
-wrapt==1.12.1
-xgboost==1.4.2
-yarl @ file:///home/conda/feedstock_root/build_artifacts/yarl_1625232865577/work
-yfinance==0.1.63
-ZigZag==0.2.2
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1633302054558/work
+sniffio==1.3.0
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+starlette==0.20.4
+tenacity==8.1.0
+threadpoolctl==3.1.0
+tornado @ file:///opt/conda/conda-bld/tornado_1662061693373/work
+tqdm==4.64.1
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+typing_extensions==4.3.0
+uvicorn==0.18.3
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
