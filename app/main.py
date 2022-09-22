@@ -433,8 +433,8 @@ def sneaker_price_prediction(data_dict: dict):
         if data_dict['price'] is not None:
             sample['predict'] = model_predict_price
             sample['predict_base'] = base_model_predict_price
-            sample['profit_by_predict_model'] = np.round((sample['price'] - ((sample['predict']/100) * 5)) - sample['price'], 3)
-            sample['profit_by_predict_base_model'] = np.round((sample['price'] - ((sample['predict_base']/100) * 5)) - sample['price'], 3)
+            sample['profit_by_predict_model'] = np.round((sample['predict'] - ((sample['predict']/100) * 5)) - sample['price'], 3)
+            sample['profit_by_predict_base_model'] = np.round((sample['predict_base'] - ((sample['predict_base']/100) * 5)) - sample['price'], 3)
 
             profit_model_predict_price = sneaker_profit_model.predict(sample[sneaker_profit_model.feature_names_])
             profit_model_predict_price = np.round(profit_model_predict_price, 3)
