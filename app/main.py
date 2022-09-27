@@ -64,12 +64,12 @@ data_quality_expected_range_dict = {
             'joy': [0, 300],
             'durability': [0, 300],
             'mint': [0, 7],
-            'buy_count_12H': [0, 1000],
+            #'buy_count_12H': [0, 1000],
             'buy_count_24H': [0, 1500],
             'sell_count_24H': [0, 2000],
             'cancel_count_24H': [0, 2000],
-            'token_all_activity_3H': [0, 30],
-            'token_sell_activity_6H': [0, 30],
+            #'token_all_activity_3H': [0, 30],
+            #'token_sell_activity_6H': [0, 30],
             },
         }
 }
@@ -244,19 +244,19 @@ class RequestModel(BaseModel):
         example=0.55,
         description="price_amt: float",
     )
-    wallet_first_sneaker_time: int = Field(
+    wallet_first_sneaker_time: Union[int, None] = Field(
         example=2221030,
         description="wallet_first_sneaker_time: int Время когда появился первый кроссовок на кошельке",
     )
-    time_ownership: int = Field(
+    time_ownership: Union[int, None] = Field(
         example=222103,
         description="time_ownership: int Сколько прошло времени с момента когда появился данный кроссовок на кошельке (если была отмена продажи считается с этого времени)",
     )
-    wallet_box_mint: int = Field(
+    wallet_box_mint: Union[int, None] = Field(
         example=4,
         description="wallet_box_mint: int Сколько боксов сминчено на кошельке",
     )
-    wallet_sneaker_mint: int = Field(
+    wallet_sneaker_mint: Union[int, None] = Field(
         example=4,
         description="wallet_sneaker_mint: int Сколько боксов открыто на кошельке",
     )
@@ -307,18 +307,18 @@ def flag_none_in_market_data(data_dict: dict):
     flag = True
 
     for key in [
-        'wallet_from_buy_count', 
-        'wallet_from_all_count',
-        'buy_count_12H',
+        #'wallet_from_buy_count', 
+        #'wallet_from_all_count',
+        #'buy_count_12H',
         'buy_count_24H',
         'sell_count_24H',
         'cancel_count_24H',
         'min_price_all_24H',
-        'token_all_activity_3H',
-        'token_sell_activity_6H',
+        #'token_all_activity_3H',
+        #'token_sell_activity_6H',
         'price_bnb',
-        'price_azy',
-        'price_amt',
+        #'price_azy',
+        #'price_amt',
         #'price',
         ]:
         if data_dict[key] is None:
