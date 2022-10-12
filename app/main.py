@@ -65,9 +65,9 @@ data_quality_expected_range_dict = {
             'durability': [0, 300],
             'mint': [0, 7],
             #'buy_count_12H': [0, 1000],
-            'buy_count_24H': [0, 2000],
-            'sell_count_24H': [0, 4000],
-            'cancel_count_24H': [0, 3000],
+            'buy_count_24H': [0, 3000],
+            'sell_count_24H': [0, 5000],
+            'cancel_count_24H': [0, 4000],
             #'token_all_activity_3H': [0, 30],
             #'token_sell_activity_6H': [0, 30],
             },
@@ -280,6 +280,44 @@ class RequestModel(BaseModel):
         example=0.67,
         description="base_mint_price_bnb: float Перевод BNB для минта, при скрещивании двух пар такой же редкости",
     )
+    ## 'diff_prev_price', 'count_waller_buyer', 'count_holder',
+    #    'count_sneaker', 'count_sneaker_type', 'count_new_sneaker_1d',
+    #    'count_new_sneaker_7d', 'count_new_sneaker_14d',
+    #    'count_new_sneaker_30d', 'ratio_sneaker_genesis',
+    #    'mkr_floor__rarity_type_genesis_lvl_mint',
+    #    'mrk_floor__rarity_type_genesis_lvl'
+    diff_prev_price: Union[float, None] = Field(
+        example=0.67,
+        description="diff_prev_price: float Изменение между предыдущей выставленной ценой",
+    )
+    count_waller_buyer: Union[int, None] = Field(
+        example=100,
+        description="count_waller_buyer: int Количество продающих сейчас кошельков на рынке",
+    )
+    count_holder: Union[int, None] = Field(
+        example=100,
+        description="count_holder: int Количество холдеров",
+    )
+    count_sneaker: Union[int, None] = Field(
+        example=100,
+        description="count_sneaker: int Количество кроссовок вообще",
+    )
+    count_sneaker_type: Union[int, None] = Field(
+        example=100,
+        description="count_sneaker_type: int Количество кроссовок по типам",
+    )
+    ratio_sneaker_genesis: Union[int, None] = Field(
+        example=100,
+        description="ratio_sneaker_genesis: int Изменение соотношения генезис кроссов к обычным",
+    )
+    mkr_floor__rarity_type_genesis_lvl_mint: Union[float, None] = Field(
+        example=0.22,
+        description="mkr_floor__rarity_type_genesis_lvl_mint: float Минимальная цена на рынке",
+    )
+    mrk_floor__rarity_type_genesis_lvl: Union[float, None] = Field(
+        example=0.21,
+        description="mrk_floor__rarity_type_genesis_lvl: float Минимальная цена на рынке",
+    )
     price: Union[float, None] = Field(
         example=0.89,
         description="price: float bnb",
@@ -317,8 +355,8 @@ def flag_none_in_market_data(data_dict: dict):
         #'token_all_activity_3H',
         #'token_sell_activity_6H',
         'price_bnb',
-        #'price_azy',
-        #'price_amt',
+        'price_azy',
+        'price_amt',
         #'price',
         ]:
         if data_dict[key] is None:
