@@ -9,17 +9,25 @@
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
   [![Python](https://img.shields.io/badge/python-v3.10-blue.svg)]()
 
 </div>
 
+## Status: Archive
+
+Because of the decline in activity on the market Amazy project had to Close. The project is considered a success because we were able to make a profit from it.
+
+
 ---
 
 ## General info
-Предсказываем цену кроссовка на маркете [https://go.amazy.io/marketplace](https://go.amazy.io/marketplace)
-- Для обучения модели используем историю продаж собранную с блокчейн (посмотреть последнею версию модели и ее метрики можно в папке [notebooks](./notebooks/))
-- Для получения предиктов в онлайне используется FastAPI [http://0.0.0.0:8003/docs#/](http://0.0.0.0:8003/docs#/)
+
+> With the AI we predict the price of a sneaker on the market, find and redeem sneakers that are lower than the market. We make money on their resale.
+
+marketplace: [https://go.amazy.io/marketplace](https://go.amazy.io/marketplace)
+
+- To train the model we use the sales history collected from the blockchain (you can see the latest version of the model and its metrics in the [notebooks](./notebooks/) folder)
+- FastAPI is used to get predicates online [http://0.0.0.0:8003/docs#/](http://0.0.0.0:8003/docs#/)
 
 ---
 ## Technologies
@@ -30,7 +38,10 @@ Project is created with:
 * docker: 20.10.16
 * docker-compose: 1.29.2
 
-## Installation with Docker Compose :whale:
+
+## Installation 
+with Docker Compose :whale:
+
 1. setup [config_prod.yml](./app/config_prod.yml)
 2. run
 ```bash
@@ -41,11 +52,4 @@ Project is created with:
 
 ## CHANGELOG
 [CHANGELOG](./CHANGELOG.md)
-
-## TODO
-
--   [ ] Добавить признак минимальной цены на текущем рынке
-
--   [ ] Обучить модель оценки профитности сделки до приемлемого уровня ошибки
-
 
